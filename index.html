@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>E-Commerce</title>
+
+		<!-- Bootstrap 5 -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="./index.css">
+	</head>
+	<body>
+		
+		<div>
+			<!-- Start of Navbar -->
+			<nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+			<div class="container-fluid p-0">
+				<a class="navbar-brand px-5 text-decoration-none text-dark" href="#hero">Shopeepee</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+						<ul class="d-grid d-flex gap-2 navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="#hero">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#carousel">Products</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#card">Featured</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#aboutUs">About Us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- End of Navbar -->
+		</div>
+
+
+		
+		<!-- Start of Hero-->
+		<section id="hero" class="container-fluid d-flex align-items-center justify-content-center">
+			<div class="row">
+				<div id="intro" class="col-sm-12 text-white text-center">
+					<h1 class="pb-3 text-dark">Welcome to <b id="Shopeepee">Shopeepee</b></h1>
+					<h6 class="pb-3 text-dark mb-5">Trusted online supplier of IT and electronic gadgets in the Philippines.</h6>
+					<button class="bg-primary mt-3 p-2" href="#carousel">Learn more about Shopeepee</button>
+				</div>
+			</div>
+		</section>
+		<!-- End of Hero-->
+
+
+		<!-- Start of Carousel-->
+		<section id="carousel">
+			<div class="container">
+			    <div class="row mt-5">
+		            <!-- Carousel-->
+		            <div class="col-md-6">
+		                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		                    <div class="carousel-indicators">
+		                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		                    </div>
+		                    <div class="carousel-inner">
+		                        <div class="carousel-item active">
+		                            <img src="./images/sample1.jpg" class="d-block w-100" alt="Slide 1">
+		                        </div>
+		                        <div class="carousel-item">
+		                            <img src="./images/sample2.jpg" class="d-block w-100" alt="Slide 2">
+		                        </div>
+		                        <div class="carousel-item">
+		                            <img src="./images/sample3.jpg" class="d-block w-100" alt="Slide 3">
+		                        </div>
+		                    </div>
+		                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+		                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		                        <span class="visually-hidden">Previous</span>
+		                    </button>
+		                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+		                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		                        <span class="visually-hidden">Next</span>
+		                    </button>
+		                </div>
+		            </div>
+		            <!-- Carousel-->
+
+		            <!-- Side Text -->
+		            <div class="col-md-6 d-flex align-items-center text-dark text-center">
+		                <div>
+		                    <h2>Why Choose Us?</h2>
+		                    <p>Experience fast shipping, great prices, and exceptional customer service.</p>
+		                    <button class="bg-primary mt-3 p-2" href="#Products">Shopeepee now!</button>
+		                </div>
+		            </div>
+		    	</div>
+			</div>
+		</section>
+			<!-- End of Carousel-->
+
+
+			<!-- Start of Cards Section -->
+			<section id=card>
+				<div class="container">
+			        <div class="row my-5">
+			        	<div>
+			            	<h1 class="text-center">Featured Products</h1>
+			            </div>
+			            <div class="col-md-4">
+
+			                <div class="card ">
+			                    <img src="./images/sample1.jpg" class="card-img-top" alt="Best Seller">
+			                    <div class="card-body">
+			                        <h3 class="card-title">Ryzen 5 5600g</h3>
+			                        <h5 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                        tempor incididunt ut labore et dolore magna aliqua. </h5>
+			                    </div>
+			                    <div class="card-footer text-center">
+			                        <small class="text-muted">Top-rated product</small>
+			                    </div>
+			                </div>
+			            </div>
+			            <div class="col-md-4">
+			                <div class="card">
+			                    <img src="./images/sample2.jpg" class="card-img-top" alt="New Arrival">
+			                    <div class="card-body">
+			                        <h3 class="card-title">RTX 4090</h3>
+			                        <h5 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                        tempor incididunt ut labore et dolore magna aliqua. </h5>
+			                    </div>
+			                    <div class="card-footer text-center">
+			                        <small class="text-muted">New Arrival</small>
+			                    </div>
+			                </div>
+			            </div>
+			            <div class="col-md-4">
+			                <div class="card">
+			                    <img src="./images/sample3.jpg" class="card-img-top" alt="Limited Edition">
+			                    <div class="card-body">
+			                        <h3 class="card-title">Secretlab Gaming Chairs</h3>
+			                        <h5 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                        tempor incididunt ut labore et dolore magna aliqua. </h5>
+			                    </div>
+			                    <div class="card-footer text-center">
+			                        <small class="text-muted">Get it before it’s gone</small>
+			                    </div>
+			                </div>
+			            </div>
+			        </div>
+		    	</div>
+	    </section>
+	    <!-- End of Cards Section -->
+
+
+		<footer id="aboutUs" class="text-center bg-primary text-white py-4">
+			<div class="container">
+				<h4>About Us</h4>
+				<p>Shopeepee is your trusted partner for IT and electronic gadgets, providing exceptional quality and unparalleled customer service. Our mission is to deliver cutting-edge products with convenience and care.</p>
+				<p>2024 Shopeepee | All rights reserved</p>
+			</div>
+		</footer>
+		
+		
+		<!-- Ending of Bootstrap 5 -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
